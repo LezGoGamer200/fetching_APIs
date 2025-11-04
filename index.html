@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>My API Test</title>
   </head>
   <body>
-    <p>
+    <header>
+      <h1>Business Directory</h1>
+      <p>Explore our collection of local businesses</p>
+    </header>
+    <!--<p>
       Inspect this document, then check the console tab to see if the data is
       there.
-    </p>
-    <script>
-      const URL =
-        "https://iskarr.github.io/austindonovan.github.io/api/business.json";
-      fetch(URL)
-        .then((response) => response.json())
-        .then((jsObject) => {
-          console.log(jsObject);
-        });
-    </script>
+    </p>-->
+    <div class="cards">
+      <!--This is where the cards will be added.-->
+    </div>
+    <footer>
+      <script src="./scripts.js"></script>
+    </footer>
   </body>
 </html>
