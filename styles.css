@@ -1,0 +1,44 @@
+* {
+  font-family: arial;
+}
+header {
+  background-color: white;
+  text-align: center;
+  border: solid white;
+  border-radius: 5px;
+}
+body {
+  background-color: lightgray;
+}
+.card {
+  background-color: white;
+  border: solid white;
+  border-radius: 5px;
+}
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.card {
+  width: 250px;
+  height: 375px;
+  perspective: 800px;
+  border: none solid 10px;
+}
+.cards img {
+  text-align: center;
+  width: auto;
+  height: auto;
+  width: 248px;
+  height: 150px;
+  border: black solid 1px;
+}
+.cards p {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
